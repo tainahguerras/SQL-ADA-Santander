@@ -1,91 +1,61 @@
-CREATE TABLE cars.category (
-	category_id CHAR(3),
-	employee_id INTEGER,
-	category_name VARCHAR(50),
-	rating VARCHAR(5),
-	quantity_sold INTEGER,
-	being_manufactured BOOLEAN,
-	total_sold_value INTEGER
+CREATE TABLE categorias 
+( 
+ id_categoria INTEGER PRIMARY KEY,  -- Identificador único para cada categoria
+ nome_categoria TEXT  -- Nome da categoria
 );
 
-CREATE TABLE cars.customer (
-	customer_id INTEGER,
-	employee_id INTEGER,
-	firstname VARCHAR(30),
-	lastname VARCHAR(30),
-	dof DATE,
-	phone CHAR(10),
-	email VARCHAR(50),
-	city VARCHAR(255),
-	country VARCHAR(255)
+CREATE TABLE clientes 
+( 
+ id_cliente INTEGER PRIMARY KEY,  -- Identificador único para cada cliente
+ nome_cliente TEXT,  -- Nome do cliente
+ idade INTEGER,  -- Idade do cliente
+ endereco TEXT  -- Endereço do cliente
 );
 
-CREATE TABLE cars.employee (
-	employee_id INTEGER,
-	store_id INTEGER,
-	firstname VARCHAR(30),
-	lastname VARCHAR(30),
-	dof DATE,
-	phone CHAR(10),
-	email VARCHAR(50),
-	status VARCHAR(6),
-	salary INTEGER,
-	street VARCHAR(255),
-	city VARCHAR(255),
-	country VARCHAR(255)
+CREATE TABLE fornecedores 
+( 
+ id_fornecedor INTEGER PRIMARY KEY,  -- Identificador único para cada fornecedor
+ nome TEXT,  -- Nome do fornecedor
+ contato TEXT  -- Contato do fornecedor (pode ser telefone, email, etc.)
 );
 
-CREATE TABLE cars.order (
-	order_id VARCHAR(6),
-	customer_id INTEGER,
-	product_id INTEGER,
-	store_id INTEGER,
-	employee_id INTEGER,
-	order_date DATE,
-	shipped_date DATE,
-	required_date DATE,
-	order_status VARCHAR(9),
-	quantity INTEGER
+CREATE TABLE marcas 
+( 
+ id_marca TEXT PRIMARY KEY,  -- Identificador único para cada marca
+ nome TEXT  -- Nome da marca
 );
 
-CREATE TABLE cars.product (
-	product_id INTEGER,
-	provider_id CHAR(6),
-	category_id CHAR(3),
-	product_name VARCHAR(30),
-	model VARCHAR(30),
-	year CHAR(4),
-	color VARCHAR(30),
-	km INTEGER,
-	price INTEGER
+CREATE TABLE produtos 
+( 
+ id_produto INTEGER PRIMARY KEY,  -- Identificador único para cada produto
+ nome_produto TEXT,  -- Nome do produto
+ preco REAL,  -- Preço do produto
+ categoria_id INTEGER,  -- Referência à categoria do produto
+ marca_id TEXT,  -- Referência à marca do produto
+ fornecedor_id INTEGER,  -- Referência ao fornecedor do produto
+ data_estoque DATE,  -- Data de entrada do produto no estoque
+ status TEXT,  -- Status atual do produto (por exemplo, disponível, esgotado)
+ FOREIGN KEY(categoria_id) REFERENCES categorias (id_categoria),  -- Chave estrangeira para a tabela Categorias
+ FOREIGN KEY(marca_id) REFERENCES marcas (id_marca),  -- Chave estrangeira para a tabela Marcas
+ FOREIGN KEY(fornecedor_id) REFERENCES fornecedores (id_fornecedor)  -- Chave estrangeira para a tabela Fornecedores
 );
 
-CREATE TABLE cars.provider (
-	provider_id CHAR(6),
-	employee_id INTEGER,
-	provider_name VARCHAR(50),
-	debt INTEGER,
-	phone CHAR(10),
-	email VARCHAR(255),
-	city VARCHAR(255),
-	country VARCHAR(255)
+CREATE TABLE vendas 
+( 
+ id_venda INTEGER PRIMARY KEY,  -- Identificador único para cada venda
+ data_venda DATE,  -- Data em que a venda foi realizada
+ total_venda REAL,  -- Valor total da venda
+ cliente_id INTEGER,  -- Referência ao cliente que fez a compra
+ FOREIGN KEY(cliente_id) REFERENCES clientes (id_cliente)  -- Chave estrangeira para a tabela Clientes
 );
 
-CREATE TABLE cars.rise_archive (
-	rise_id CHAR(4),
-	amount_by_percent INTEGER,
-	rise_date DATE,
-	rise_state CHAR(9)
+ CREATE TABLE itens_venda 
+( 
+ venda_id INTEGER,  -- Referência à venda
+ produto_id INTEGER,  -- Referência ao produto vendido
+ PRIMARY KEY (venda_id, produto_id),  -- Chave primária composta pelas referências à venda e ao produto
+ FOREIGN KEY(venda_id) REFERENCES vendas (id_venda),  -- Chave estrangeira para a tabela Vendas
+ FOREIGN KEY(produto_id) REFERENCES produtos (id_produto)  -- Chave estrangeira para a tabela Produtos
 );
 
-CREATE TABLE cars.store (
-	store_id INTEGER,
-	employee_id INTEGER,
-	store_name VARCHAR(255),
-	phone CHAR(10),
-	street VARCHAR(255),
-	city VARCHAR(255),
-	country VARCHAR(255),
-	email VARCHAR(255),
-	post_code CHAR(4)
-);
+ 
