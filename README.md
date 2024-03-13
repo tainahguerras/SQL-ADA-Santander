@@ -3,4 +3,3 @@ Projeto de exploração de dados utilizando SQL e Postgres para trilha de Data S
 
 Trello: https://trello.com/b/yLjzU1Dh/projeto-sql-ada
 
-Data-set: https://www.kaggle.com/datasets/grncode/automotive-sector-compherensive-business-data-2023
