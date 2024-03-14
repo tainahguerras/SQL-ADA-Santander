@@ -49,7 +49,7 @@ CREATE TABLE vendas
  FOREIGN KEY(cliente_id) REFERENCES clientes (id_cliente)  -- Chave estrangeira para a tabela Clientes
 );
 
- CREATE TABLE itens_venda 
+CREATE TABLE itens_venda 
 ( 
  venda_id INTEGER,  -- Referência à venda
  produto_id INTEGER,  -- Referência ao produto vendido
