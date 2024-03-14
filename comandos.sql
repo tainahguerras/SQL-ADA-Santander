@@ -31,7 +31,7 @@ CREATE TABLE produtos
  nome_produto VARCHAR(255),  -- Nome do produto
  preco REAL,  -- Preço do produto
  categoria_id INTEGER,  -- Referência à categoria do produto
- marca_id VARCHAR(255),  -- Referência à marca do produto
+ marca_id INTEGER,  -- Referência à marca do produto
  fornecedor_id INTEGER,  -- Referência ao fornecedor do produto
  data_estoque DATE,  -- Data de entrada do produto no estoque
  status VARCHAR(255),  -- Status atual do produto (por exemplo, disponível, esgotado)
@@ -57,5 +57,3 @@ CREATE TABLE vendas
  FOREIGN KEY(venda_id) REFERENCES vendas (id_venda),  -- Chave estrangeira para a tabela Vendas
  FOREIGN KEY(produto_id) REFERENCES produtos (id_produto)  -- Chave estrangeira para a tabela Produtos
 );
-
- 
