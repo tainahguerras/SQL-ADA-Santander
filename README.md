@@ -40,7 +40,7 @@ Essa base de dados apresenta dados de vendas da **Zoop Megastore** no período d
 
 ``itens_venda:`` Informações sobre os produtos adquiridos em cada venda.
 
-Importante salientar que estes dados foram retirados de um dos cursos da ALURA.
+**Importante salientar que estes dados foram retirados de um dos cursos da ALURA.**
 
 ## 4. FERRAMENTAS E REFERÊNCIAS
 
