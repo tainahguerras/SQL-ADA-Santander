@@ -17,7 +17,7 @@ Utilizando o PostgreSQL para construção,carregamento e análise dos dados.
 ## 2. Metodologias Ágeis 
 
 Para este projeto foi utilizada a ferramenta  de gestão de projetos Trello. Utilzado para manter o projeto organizado,
-facilitare a colaboração entre os membros da equipe e garantir que o projeto seja concluído dentro do prazo estabelecido.
+facilitar a colaboração entre os membros da equipe e garantir que o projeto seja concluído dentro do prazo estabelecido.
 
 ![image](images/trello.png)
 
