@@ -22,25 +22,25 @@ Utilizando o PostgreSQL para construção,carregamento e análise dos dados.
 Essa base de dados apresenta, de forma fictícia, dados de vendas da **Zoop Megastore**
 do período de 01/2020 a 10/2023. 
 
-### Informações das tabelas:
+### 3.1 Informações das tabelas
 
-``categorias:`` 
+``categorias:`` Nesta tabela encontra-se informações sobre as categorias dos produtos.
 
-``clientes:``
+``clientes:`` Nesta tabela encontra-se informações sobre o cliente e sua localização.
 
-``fornecedores:``
+``fornecedores:`` Nesta tabela encontra-se informações sobre os fornecedores dos produtos.
 
-``marcas:``
+``marcas:`` Nesta tabela encontra-se informações das marcas dos produtos. 
 
-``produtos:``
+``produtos:`` Nesta tabela encontra-se informações sobre os produtos vendidos na loja.
 
-``vendas:``
+``vendas:`` Nesta tabela encontra-se informações sobre as vendas processadas.
 
-``itens_venda:``
+``itens_venda:`` Nesta tabela informa quais foram os produtos adquiridos em cada venda.
 
 ![image](https://github.com/tainahguerras/SQL-ADA-Santander/assets/142911747/8a87150b-366a-4202-b7ac-ea635bc10c33)
 
-Esses dados foram retirados de um dos cursos da ALURA, estando o arquivo anteriormente apenas disponível em formato .DB. 
+Importante salientar que estes dados foram retirados de um dos cursos da ALURA, estando o arquivo anteriormente apenas disponível em formato .DB. 
 Porém foi realizada a devida conversão para CSV, assim viabilizando a realização deste projeto.
 
 
