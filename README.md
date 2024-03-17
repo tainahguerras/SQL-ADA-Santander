@@ -19,7 +19,7 @@ Utilizando o PostgreSQL para construção,carregamento e análise dos dados.
 Para este projeto foi utilizada a ferramenta  de gestão de projetos Trello. Utilzado para manter o projeto organizado,
 facilitare a colaboração entre os membros da equipe e garantir que o projeto seja concluído dentro do prazo estabelecido.
 
-![image](images/ERD.png)
+![image](images/trello.png)
 
 Link: https://trello.com/b/yLjzU1Dh/projeto-sql-ada
 
