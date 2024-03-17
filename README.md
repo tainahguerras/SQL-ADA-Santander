@@ -41,7 +41,7 @@ do período de 01/2020 a 10/2023.
 
 ``itens_venda:`` Informações sobre os produtos adquiridos em cada venda.
 
-Importante salientar que estes dados foram retirados de um dos cursos da ALURA, estando o arquivo anteriormente apenas disponível em formato .DB
-Porém foi realizada a devida conversão para CSV, assim viabilizando a realização deste projeto.
+Importante salientar que estes dados foram retirados de um dos cursos da ALURA, estando o arquivo anteriormente apenas disponível em formato .DB,
+porém foi realizada a devida conversão para CSV, assim viabilizando a realização deste projeto.
 
 
