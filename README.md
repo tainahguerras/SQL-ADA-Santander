@@ -28,7 +28,7 @@ Link: https://trello.com/b/yLjzU1Dh/projeto-sql-ada
 Essa base de dados apresenta, de forma fictícia, dados de vendas da **Zoop Megastore**
 do período de 01/2020 a 10/2023. 
 
-### 3.1 Informações das tabelas
+![image](images/ERD.png)
 
  ``categorias:``  Informações sobre as categorias dos produtos.
 
@@ -43,8 +43,6 @@ do período de 01/2020 a 10/2023.
 ``vendas:`` Informações sobre as vendas processadas.
 
 ``itens_venda:`` Informações sobre os produtos adquiridos em cada venda.
-
-![image](images/ERD.png)
 
 Importante salientar que estes dados foram retirados de um dos cursos da ALURA, estando o arquivo anteriormente apenas disponível em formato .DB. 
 Porém foi realizada a devida conversão para CSV, assim viabilizando a realização deste projeto.
