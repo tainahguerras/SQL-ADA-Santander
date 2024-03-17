@@ -24,19 +24,19 @@ do período de 01/2020 a 10/2023.
 
 ### 3.1 Informações das tabelas
 
-``categorias:``  Informações sobre as categorias dos produtos.
+    ``categorias:``  Informações sobre as categorias dos produtos.
 
-``clientes:`` Informações sobre o cliente e sua localização.
+    ``clientes:`` Informações sobre o cliente e sua localização.
 
-``fornecedores:`` Informações sobre os fornecedores dos produtos.
+    ``fornecedores:`` Informações sobre os fornecedores dos produtos.
 
-``marcas:`` Informaçõess das marcas dos produtos. 
+    ``marcas:`` Informaçõess das marcas dos produtos. 
 
-``produtos:`` Informações sobre os produtos vendidos na loja.
+    ``produtos:`` Informações sobre os produtos vendidos na loja.
 
-``vendas:`` Informações sobre as vendas processadas.
+    ``vendas:`` Informações sobre as vendas processadas.
 
-``itens_venda:`` Informações sobre os produtos adquiridos em cada venda.
+    ``itens_venda:`` Informações sobre os produtos adquiridos em cada venda.
 
 ![image](https://github.com/tainahguerras/SQL-ADA-Santander/assets/142911747/8a87150b-366a-4202-b7ac-ea635bc10c33)
 
