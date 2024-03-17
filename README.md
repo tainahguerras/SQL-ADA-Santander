@@ -21,7 +21,7 @@ facilitar a colaboração entre os membros da equipe e garantir que o projeto se
 
 ![image](images/trello.png)
 
-Link: https://trello.com/b/yLjzU1Dh/projeto-sql-ada
+[Link para o Trello](https://trello.com/b/yLjzU1Dh/projeto-sql-ada)
 
 ## 3. Data-Set
 
