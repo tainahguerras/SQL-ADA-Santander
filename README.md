@@ -16,12 +16,10 @@ Utilizando o PostgreSQL para construção,carregamento e análise dos dados.
 
 ## 2. Metodologias Ágeis 
 
-Para este projeto foi utilizada a ferramenta  de gestão de projetos Trello. Utilzado para manter o projeto organizado,
+Para este projeto foi utilizada a ferramenta  de gestão de projetos [Trello](https://trello.com/b/yLjzU1Dh/projeto-sql-ada). Utilzado para manter o projeto organizado,
 facilitar a colaboração entre os membros da equipe e garantir que o projeto seja concluído dentro do prazo estabelecido.
 
 ![image](images/trello.png)
-
-[Link para o Trello](https://trello.com/b/yLjzU1Dh/projeto-sql-ada)
 
 ## 3. Data-Set
 
