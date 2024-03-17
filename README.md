@@ -19,9 +19,7 @@ Utilizando o PostgreSQL para construção,carregamento e análise dos dados.
 
 ## 3. Data-Set
 
-**Zoop Megastore**
-
-Essa base de dados apresenta, de forma fictícia, dados de vendas da Zoop Megastore
+Essa base de dados apresenta, de forma fictícia, dados de vendas da **Zoop Megastore**
 do período de 01/2020 a 10/2023. 
 
 ![image](https://github.com/tainahguerras/SQL-ADA-Santander/assets/142911747/8a87150b-366a-4202-b7ac-ea635bc10c33)
