@@ -42,7 +42,7 @@ Essa base de dados apresenta dados de vendas da **Zoop Megastore** no período d
 
 **Importante salientar que estes dados foram retirados de um dos cursos da ALURA.**
 
-## 4. FERRAMENTAS E REFERÊNCIAS
+## 4. FERRAMENTAS
 
 - PostgreSQL 
 - pgAdmin4
@@ -52,6 +52,8 @@ Essa base de dados apresenta dados de vendas da **Zoop Megastore** no período d
 - Seaborn
 - Git
 - Trello
+
+## 5. REFERÊNCIAS
 
 - https://www.postgresql.org
 - https://learnsql.com/blog/how-to-import-csv-to-postgresql/
