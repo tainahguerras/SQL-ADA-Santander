@@ -7,17 +7,17 @@
 
 ## Por: Otávio Sotnas - ID: 1116014 e Tainah Guerra - ID:
 
-## Objetivo
+## 1. Objetivo
 
 Este projeto tem como principal objetivo aplicar os
 conhecimentos adquiridos ao longo da disciplina de Banco de dados I em
 um contexto prático, relevante e data-driven, afim de gerar insights valiosos e responder perguntas de negócio. 
 Utilizando o PostgreSQL para construção,carregamento e análise dos dados.
 
-## Metodologias Ágeis 
+## 2. Metodologias Ágeis 
 
 
-## Data-Set
+## 3. Data-Set
 
 **Zoop Megastore**
 
