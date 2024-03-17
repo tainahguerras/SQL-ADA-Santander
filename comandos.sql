@@ -16,7 +16,7 @@ CREATE TABLE fornecedores
 ( 
  id_fornecedor INTEGER PRIMARY KEY,  -- Identificador único para cada fornecedor
  nome VARCHAR(255),  -- Nome do fornecedor
- contato VARCHAR(255)  -- Contato do fornecedor (pode ser telefone, email, etc.)
+ contato VARCHAR(255)  -- Contato do fornecedor (pode ser telefone, email, etc...)
 );
 
 CREATE TABLE marcas 
