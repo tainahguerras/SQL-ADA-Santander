@@ -22,10 +22,11 @@ Utilizando o PostgreSQL para construção,carregamento e análise dos dados.
 **Zoop Megastore**
 
 Essa base de dados apresenta, de forma fictícia, dados de vendas da Zoop Megastore
-do período de 01/2020 a 10/2023.
+do período de 01/2020 a 10/2023. 
+
+![image](https://github.com/tainahguerras/SQL-ADA-Santander/assets/142911747/8a87150b-366a-4202-b7ac-ea635bc10c33)
 
 Esses dados foram retirados de um dos cursos da ALURA, estando o arquivo anteriormente apenas disponível em formato .DB. 
 Porém foi realizada a devida conversão para CSV, assim viabilizando a realização deste projeto.
 
-![image](https://github.com/tainahguerras/SQL-ADA-Santander/assets/142911747/8a87150b-366a-4202-b7ac-ea635bc10c33)
 
