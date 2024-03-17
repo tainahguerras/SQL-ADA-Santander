@@ -21,7 +21,7 @@ facilitar a colaboração entre os membros da equipe e garantir que o projeto se
 
 ![image](images/trello.png)
 
-## 3. Base de Dados
+## 3. BASE DE DADOS
 Essa base de dados apresenta dados de vendas da **Zoop Megastore** no período de 01/2020 a 10/2023. 
 
 ![image](images/ERD.png)
