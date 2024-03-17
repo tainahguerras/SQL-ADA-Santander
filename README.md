@@ -16,6 +16,7 @@ Utilizando o PostgreSQL para construção,carregamento e análise dos dados.
 
 ## 2. Metodologias Ágeis 
 
+![image](https://github.com/tainahguerras/SQL-ADA-Santander/assets/142911747/dc202b69-4518-41ef-bd2b-dfe73635bbce)
 
 ## 3. Data-Set
 
