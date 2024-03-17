@@ -16,7 +16,10 @@ Utilizando o PostgreSQL para construção,carregamento e análise dos dados.
 
 ## 2. Metodologias Ágeis 
 
-![image](https://github.com/tainahguerras/SQL-ADA-Santander/assets/142911747/dc202b69-4518-41ef-bd2b-dfe73635bbce)
+Para este projeto foi utilizada a ferramenta  de gestão de projetos Trello. Utilzado para manter o projeto organizado,
+facilitare a colaboração entre os membros da equipe e garantir que o projeto seja concluído dentro do prazo estabelecido.
+
+![image](images/ERD.png)
 
 ## 3. Data-Set
 
@@ -40,6 +43,8 @@ do período de 01/2020 a 10/2023.
 ``itens_venda:`` Informações sobre os produtos adquiridos em cada venda.
 
 ![image](https://github.com/tainahguerras/SQL-ADA-Santander/assets/142911747/8a87150b-366a-4202-b7ac-ea635bc10c33)
+
+Link: https://trello.com/b/yLjzU1Dh/projeto-sql-ada
 
 Importante salientar que estes dados foram retirados de um dos cursos da ALURA, estando o arquivo anteriormente apenas disponível em formato .DB. 
 Porém foi realizada a devida conversão para CSV, assim viabilizando a realização deste projeto.
