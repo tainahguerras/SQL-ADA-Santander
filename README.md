@@ -22,8 +22,7 @@ facilitar a colaboração entre os membros da equipe e garantir que o projeto se
 ![image](images/trello.png)
 
 ## 3. Base de Dados
-Essa base de dados apresenta, de forma fictícia, dados de vendas da **Zoop Megastore**
-do período de 01/2020 a 10/2023. 
+Essa base de dados apresenta dados de vendas da **Zoop Megastore** no período de 01/2020 a 10/2023. 
 
 ![image](images/ERD.png)
 
@@ -41,7 +40,6 @@ do período de 01/2020 a 10/2023.
 
 ``itens_venda:`` Informações sobre os produtos adquiridos em cada venda.
 
-Importante salientar que estes dados foram retirados de um dos cursos da ALURA, estando o arquivo anteriormente apenas disponível em formato .DB,
-porém foi realizada a devida conversão para CSV, assim viabilizando a realização deste projeto.
+* Importante salientar que estes dados foram retirados de um dos cursos da ALURA.
 
 
