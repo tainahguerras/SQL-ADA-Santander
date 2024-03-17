@@ -5,7 +5,7 @@
 - Módulo: Banco de Dados I
 - Professor: Aruã de Mello Sousa
 
-## Por: Tainah Guerra - ID: 1116005 e Otávio Sotnas - ID: 1116014
+## Por: Tainah Guerra - ID: 1116005 e Otávio Santos - ID: 1116014
 
 ## 1. OBJETIVO
 
