@@ -12,11 +12,11 @@
 Este projeto tem como principal objetivo aplicar os
 conhecimentos adquiridos ao longo da disciplina de Banco de dados I em
 um contexto prático, relevante e data-driven, afim de gerar insights valiosos e responder perguntas de negócio. 
-Utilizando o PostgreSQL para construção,carregamento e análise dos dados.
+Utilizando o PostgreSQL para construção, carregamento e análise dos dados.
 
 ## 2. Metodologias Ágeis 
 
-Para este projeto foi utilizada a ferramenta  de gestão de projetos [Trello](https://trello.com/b/yLjzU1Dh/projeto-sql-ada). Utilzado para manter o projeto organizado,
+Para este projeto foi utilizada a ferramenta de gestão de projetos [Trello](https://trello.com/b/yLjzU1Dh/projeto-sql-ada). Utilizado para manter o projeto organizado,
 facilitar a colaboração entre os membros da equipe e garantir que o projeto seja concluído dentro do prazo estabelecido.
 
 ![image](images/trello.png)
