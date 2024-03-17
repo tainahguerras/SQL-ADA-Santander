@@ -21,6 +21,8 @@ facilitare a colaboração entre os membros da equipe e garantir que o projeto s
 
 ![image](images/ERD.png)
 
+Link: https://trello.com/b/yLjzU1Dh/projeto-sql-ada
+
 ## 3. Data-Set
 
 Essa base de dados apresenta, de forma fictícia, dados de vendas da **Zoop Megastore**
@@ -43,8 +45,6 @@ do período de 01/2020 a 10/2023.
 ``itens_venda:`` Informações sobre os produtos adquiridos em cada venda.
 
 ![image](https://github.com/tainahguerras/SQL-ADA-Santander/assets/142911747/8a87150b-366a-4202-b7ac-ea635bc10c33)
-
-Link: https://trello.com/b/yLjzU1Dh/projeto-sql-ada
 
 Importante salientar que estes dados foram retirados de um dos cursos da ALURA, estando o arquivo anteriormente apenas disponível em formato .DB. 
 Porém foi realizada a devida conversão para CSV, assim viabilizando a realização deste projeto.
